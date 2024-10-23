@@ -1,0 +1,504 @@
+@media screen and (min-width: 1024px) {
+    * {
+        margin: 0;
+        list-style-type: none;
+    }
+    .wrapper {
+        background: #FAF4F2;
+        width: 1440px;
+        margin: 0 auto
+    }
+    /******************MAIN**************/
+    main {
+        display: flex;
+        justify-content: space-around;
+    }
+    .greeting_card {
+        margin: 100px 0 0 180px;
+    }
+    .greeting_card h3 {
+        width: 475px;
+        height: 124px;
+        color: #222;
+        font-family: Poppins, sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 62px;
+    }
+    .greeting_card p {
+        width: 509px;
+        height: 144px;
+        color: #222;
+        font-family: Poppins, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    main img {
+        width: 406px;
+        height: 406px;
+        margin: 100px 176px 0 0;
+
+    }
+    div > button:nth-child(1) {
+        margin-right: 30px;
+        width: 151px;
+        height: 55px;
+        border-radius: 10px;
+        background: #FF2950;
+        color: #F9F9F9;
+        font-family: Poppins, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    div > button:nth-child(2) {
+        width: 153px;
+        height: 55px;
+        border-radius: 10px;
+        border: 2px solid #FF9B70;
+        color: rgba(34, 34, 34, 0.50);
+        font-family: Poppins, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    /**************SECTION INFO****************/
+    .info_card {
+        display: flex;
+        margin: 125px 150px 125px 150px;
+        border-radius: 35px;
+        background: #FF7315;
+        width: 1140px;
+        height: 519px;
+    }
+    .info_card img {
+        margin: 93px 0 97px 32px;
+        width: 430px;
+        height: 329px;
+    }
+    .info_card div h2 {
+        color: #F9F9F9;
+        font-family: Poppins, sans-serif;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 62px;
+    }
+    .info_card div span {
+        margin-top: 16px;
+        color: #F9F9F9;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+    }
+    .info_card div h3 {
+        margin-top: 19px;
+        color: #F9F9F9;
+        font-family: Poppins, sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 62px;
+    }
+    .info_card div p {
+        margin-top: 19px;
+        color: #F9F9F9;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 45px;
+        width: 570px;
+    }
+
+    .info_card div {
+        margin: 62px 76px 63px 32px;
+    }
+
+    /************SECTION WHY ME**************/
+    .why_me {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why_me h1 {
+        margin-bottom: 100px;
+        color: #222;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 62px;
+    }
+
+    .why_me h4 {
+        margin: 51px 0 12px 0;
+        color: #222;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+    }
+
+    .why_me p {
+        width: 240px;
+        color: rgba(34, 34, 34, 0.50);
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .circle {
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 98px;
+        height: 98px;
+        background: rgba(34, 34, 34, 0.10);;
+    }
+
+    .why_me_container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /***************SECTION PORTFOLIO*************/
+    .portfolio h1 {
+        margin: 125px 0 64px 150px;
+        color: #222;
+        font-family: Poppins, sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 123.6%;
+        text-transform: capitalize;
+    }
+
+    .album {
+        position: relative;
+        gap: 24px;
+        margin: 0 231px 125px 231px;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .album img {
+        transition: transform 1s;
+    }
+
+    .album img:hover {
+        transform: scale(1.5);
+    }
+
+    /***************SECTION ORANGE*************/
+    .orange {
+        padding-top: 48px;
+        width: 1440px;
+        height: 643px;
+        background: #FF7315;
+    }
+
+    .orange h3 {
+        margin: 0 416px 0 415px;
+        width: 609px;
+        color: #F9F9F9;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px;
+    }
+
+    .orange p {
+        margin: 0 55px 47px 55px;
+        color: #222;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .orange .box {
+        margin: 0 41px 0 41px;
+        padding-top: 24px;
+        width: 529px;
+        height: 179px;
+        border-radius: 30px;
+        background: #F9F9F9;
+    }
+
+    .orange_container {
+        display: flex;
+        margin: 135px 150px 185px 150px;
+    }
+
+    /*SECTION PRICE PLAN*/
+    .price_plan_container {
+        display: flex;
+        justify-content: center;
+        gap: 67px;
+    }
+
+    .sub {
+        width: 335px;
+        height: 500px;
+        border-radius: 15px;
+        background: #F9F9F9;
+        box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+        transition: transform 1s;
+    }
+
+    .sub:hover {
+        transform: scale(1.3);
+
+    }
+
+    .sub:hover .name {
+        background: red;
+    }
+
+    .sub .name {
+        transition: background-color 1s;
+    }
+
+    .sub .name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 335px;
+        height: 66px;
+        border-radius: 15px 15px 0 0;
+        background: #FF9B70;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    }
+
+    .sub h1 {
+        color: #F9F9F9;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 123.6%;
+        text-transform: capitalize;
+    }
+
+    .price {
+        margin: 125px 588px 35px 587px;
+        color: #222;
+        font-family: Poppins, sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 123.6%;
+        text-transform: capitalize;
+    }
+
+    .price_plan_container li {
+        color: #222;
+        font-kerning: none;
+        font-feature-settings: 'calt' off;
+        font-family: Poppins, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: capitalize;
+    }
+
+    .silver ul li:nth-child(n+3):nth-child(-n+8) {
+        opacity: 0.5;
+        color: #222;
+        font-kerning: none;
+        font-feature-settings: 'calt' off;
+        font-family: Poppins, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: capitalize;
+    }
+
+    .price_tag {
+        margin: 36px 98px 29px 98px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .price_tag h1 {
+        color: #2B2B2B;
+        font-family: Poppins, sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 123.6%;
+        text-transform: capitalize;
+    }
+
+    .price_tag h4 {
+        opacity: 0.5;
+        color: #2B2B2B;
+        font-kerning: none;
+        font-feature-settings: 'calt' off;
+        font-family: Poppins, sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: capitalize;
+    }
+
+    .gold ul li:nth-child(n+5):nth-child(-n+8) {
+        opacity: 0.5;
+        color: #222;
+        font-kerning: none;
+        font-feature-settings: 'calt' off;
+        font-family: Poppins, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: capitalize;
+    }
+
+    /*****************SECTION EMAIL***************/
+    .email {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px 165px 125px 165px;
+        width: 1110px;
+        height: 224px;
+        border-radius: 25px;
+        background: #FF7315;
+    }
+
+    .email h3 {
+        margin: 50px 0 50px 75px;
+        width: 343px;
+        height: 124px;
+        color: #F9F9F9;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 62px;
+    }
+
+    .email button {
+        margin: 77px 100px 77px 0;
+        color: #222;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 259px;
+        height: 70px;
+        border-radius: 10px;
+        background: #F9F9F9;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.01);
+    }
+
+    /***************SECTION BLOG***************/
+    .blog h1 {
+        margin-left: 150px;
+        color: #222;
+        font-family: Poppins, sans-serif;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 62px;
+    }
+
+    .lorem_container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 48px;
+        margin-bottom: 125px;
+    }
+
+    .lorem {
+        padding: 14px;
+        display: flex;
+        flex-direction: column;
+        width: 270px;
+        height: 364px;
+        border-radius: 15px;
+        background: #F9F9F9;
+        box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+    }
+
+    .lorem img {
+        border-radius: 15px;
+    }
+
+    .lorem h3 {
+        width: 233px;
+        margin: 24px 49px 12px 16px;
+        color: #222;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 123.6%;
+        text-transform: capitalize;
+    }
+
+    .lorem p {
+        margin-left: 16px;
+        width: 240px;
+        color: rgba(34, 34, 34, 0.50);
+        font-kerning: none;
+        font-feature-settings: 'calt' off;
+        font-family: Poppins, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: capitalize;
+    }
+
+    /*****************FOOTER********************/
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 170px;
+        background: #F1F1F1;
+    }
+
+    footer p {
+        color: #222;
+        font-family: Poppins, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
