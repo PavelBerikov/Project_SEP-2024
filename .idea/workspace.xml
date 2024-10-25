@@ -4,53 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61fee28d-0739-4293-a117-c6c256b7895d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Project/fonts/poppins_font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/Check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/Close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/Mohammad_Reza.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/Transparent_zoomed1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/design1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/design2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/design3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/design4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/mockup1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/mockup2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/mockup3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/mockup4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/mockup5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/imgs/mockup6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/index_W-1024.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/index_W-768.css" afterDir="false" />
+    <list default="true" id="61fee28d-0739-4293-a117-c6c256b7895d" name="Changes" comment="project html">
+      <change afterPath="$PROJECT_DIR$/Project/styles/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/fonts/poppins_font.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/styles/fonts/poppins_font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/index_W-1024.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/styles/index_W-1024.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/index_W-768.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/styles/index_W-768.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "PavelBerikov"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PavelBerikov&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="65affcd1-eae0-45f6-82c9-5655f85944f3" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PavelBerikov/Project_SEP-2024.git",
-    "accountId": "65affcd1-eae0-45f6-82c9-5655f85944f3"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PavelBerikov/Project_SEP-2024.git&quot;,
+    &quot;accountId&quot;: &quot;65affcd1-eae0-45f6-82c9-5655f85944f3&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2nqQXuDokbJcZFW0hDSaK0DkjQA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,12 +55,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.index.html.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/User/IdeaProjects/Project_SEP-2024",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,6 +75,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\Project_SEP-2024" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Project_SEP-2024\Project\styles" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -98,8 +97,20 @@
       <option name="presentableId" value="Default" />
       <updated>1729698168424</updated>
       <workItem from="1729698169821" duration="1997000" />
-      <workItem from="1729702331309" duration="691000" />
+      <workItem from="1729702331309" duration="967000" />
+      <workItem from="1729868269076" duration="535000" />
+      <workItem from="1729870700726" duration="9000" />
+      <workItem from="1729870757728" duration="2978000" />
     </task>
+    <task id="LOCAL-00001" summary="project html">
+      <option name="closed" value="true" />
+      <created>1729703303700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729703303700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +126,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project html" />
+    <option name="LAST_COMMIT_MESSAGE" value="project html" />
   </component>
 </project>

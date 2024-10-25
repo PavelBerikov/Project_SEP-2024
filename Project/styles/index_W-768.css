@@ -7,7 +7,7 @@
         background: #FAF4F2;
     }
 
-    /*MAIN*/
+    /************MAIN**************/
     main {
         display: flex;
         justify-content: center;
@@ -50,34 +50,7 @@
         height: 406px;
     }
 
-    div > button:nth-child(1) {
-        margin-right: 30px;
-        width: 151px;
-        height: 55px;
-        border-radius: 10px;
-        background: #FF2950;
-        color: #F9F9F9;
-        font-family: Poppins, sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
-
-    div > button:nth-child(2) {
-        width: 153px;
-        height: 55px;
-        border-radius: 10px;
-        border: 2px solid #FF9B70;
-        color: rgba(34, 34, 34, 0.50);
-        font-family: Poppins, sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
-
-    /*SECTION INFO*/
+    /**************SECTION INFO***************/
     .info_card {
         display: flex;
         align-items: center;
@@ -133,9 +106,8 @@
         margin: 30px;
     }
 
-    /*SECTION WHY ME*/
+    /************SECTION WHY ME************/
     .why_me {
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -151,28 +123,6 @@
         font-style: normal;
         font-weight: 600;
         line-height: 62px;
-    }
-
-    .why_me h4 {
-        margin: 51px 0 12px 0;
-        color: #222;
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 36px;
-    }
-
-    .why_me p {
-        width: 240px;
-        color: rgba(34, 34, 34, 0.50);
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
     }
 
     .circle {
@@ -289,7 +239,7 @@
         box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
     }
 
-    .sub h1 {
+    .sub .name h1 {
         color: #F9F9F9;
         font-family: Poppins, sans-serif;
         font-size: 24px;
@@ -312,72 +262,14 @@
         text-transform: capitalize;
     }
 
-    .price_plan_container li {
-        color: #222;
-        font-kerning: none;
-        font-feature-settings: 'calt' off;
-        font-family: Poppins, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        text-transform: capitalize;
-    }
-
-    .silver ul li:nth-child(n+3):nth-child(-n+8) {
-        opacity: 0.5;
-        color: #222;
-        font-kerning: none;
-        font-feature-settings: 'calt' off;
-        font-family: Poppins, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        text-transform: capitalize;
-    }
-
     .price_tag {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .price_tag h1 {
-        color: #2B2B2B;
-        font-family: Poppins, sans-serif;
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 123.6%;
-        text-transform: capitalize;
-    }
 
-    .price_tag h4 {
-        opacity: 0.5;
-        color: #2B2B2B;
-        font-kerning: none;
-        font-feature-settings: 'calt' off;
-        font-family: Poppins, sans-serif;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        text-transform: capitalize;
-    }
 
-    .gold ul li:nth-child(n+5):nth-child(-n+8) {
-        opacity: 0.5;
-        color: #222;
-        font-kerning: none;
-        font-feature-settings: 'calt' off;
-        font-family: Poppins, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        text-transform: capitalize;
-    }
 
     /*SECTION EMAIL*/
     .email {
@@ -437,49 +329,7 @@
         margin-top: 48px;
         margin-bottom: 125px;
     }
-
-    .lorem {
-        padding: 14px;
-        display: flex;
-        flex-direction: column;
-        width: 270px;
-        height: 364px;
-        border-radius: 15px;
-        background: #F9F9F9;
-        box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
-    }
-
-    .lorem img {
-        border-radius: 15px;
-    }
-
-    .lorem h3 {
-        width: 233px;
-        margin: 24px 49px 12px 16px;
-        color: #222;
-        font-family: Poppins, sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 123.6%;
-        text-transform: capitalize;
-    }
-
-    .lorem p {
-        margin-left: 16px;
-        width: 240px;
-        color: rgba(34, 34, 34, 0.50);
-        font-kerning: none;
-        font-feature-settings: 'calt' off;
-        font-family: Poppins, sans-serif;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        text-transform: capitalize;
-    }
-
-    /*FOOTER*/
+    /*************FOOTER**************/
     footer {
         display: flex;
         justify-content: center;
