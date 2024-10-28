@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61fee28d-0739-4293-a117-c6c256b7895d" name="Changes" comment="project html">
-      <change afterPath="$PROJECT_DIR$/Project/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/favicon/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/favicon/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/favicon/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/favicon/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/favicon/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/favicon/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/favicon/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/fonts/poppins_font.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/styles/fonts/poppins_font.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/index_W-1024.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/styles/index_W-1024.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/index_W-768.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/styles/index_W-768.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/styles/index_W-1024.css" beforeDir="false" afterPath="$PROJECT_DIR$/Project/styles/index_W-1024.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +66,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/Project_SEP-2024",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/Project_SEP-2024/Project",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,6 +79,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Project_SEP-2024\Project" />
       <recent name="C:\Users\User\IdeaProjects\Project_SEP-2024" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -100,7 +106,8 @@
       <workItem from="1729702331309" duration="967000" />
       <workItem from="1729868269076" duration="535000" />
       <workItem from="1729870700726" duration="9000" />
-      <workItem from="1729870757728" duration="2978000" />
+      <workItem from="1729870757728" duration="3093000" />
+      <workItem from="1730115871778" duration="2253000" />
     </task>
     <task id="LOCAL-00001" summary="project html">
       <option name="closed" value="true" />
@@ -110,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729703303700</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project html">
+      <option name="closed" value="true" />
+      <created>1729873839454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729873839454</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

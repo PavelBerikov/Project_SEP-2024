@@ -26,6 +26,7 @@
         animation: txt 3s;
     }
     .social_media{
+        margin-top: 54px;
         animation: social_media 3s;
     }
     @keyframes social_media {
@@ -44,6 +45,9 @@
         line-height: 62px;
     }
     .butt_animation{
+        margin-top: 25px;
+        display: flex;
+        justify-content: flex-start;
         animation: button 3s;
     }
     @keyframes button {
