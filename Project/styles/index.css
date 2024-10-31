@@ -56,8 +56,7 @@ div > button:last-child{
     line-height: 24px;
     text-transform: capitalize;
 }
-.silver ul li:nth-child(n+3):nth-child(-n+8) {
-    opacity: 0.5;
+.sub ul li{
     color: #222;
     font-kerning: none;
     font-feature-settings: 'calt' off;
@@ -67,6 +66,9 @@ div > button:last-child{
     font-weight: 500;
     line-height: 24px;
     text-transform: capitalize;
+}
+.silver ul li:nth-child(n+3):nth-child(-n+8) {
+    opacity: 0.5;
 }
 .price_tag h1 {
     color: #2B2B2B;
@@ -93,15 +95,6 @@ div > button:last-child{
 
 .gold ul li:nth-child(n+5):nth-child(-n+8) {
     opacity: 0.5;
-    color: #222;
-    font-kerning: none;
-    font-feature-settings: 'calt' off;
-    font-family: Poppins, sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    text-transform: capitalize;
 }
 .lorem {
     padding: 14px;
@@ -143,3 +136,17 @@ div > button:last-child{
     line-height: 24px;
     text-transform: capitalize;
 }
+.email button{
+    color: #222;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 259px;
+    height: 70px;
+    border-radius: 10px;
+    background: #F9F9F9;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.01);
+}
+
